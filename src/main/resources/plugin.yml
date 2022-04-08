@@ -1,0 +1,11 @@
+name: MCCaptcha
+version: '${project.version}'
+main: com.collidacube.mccaptcha.MCCaptcha
+api-version: 1.17
+authors: [ CollidaCube ]
+description: Simple captcha plugin to prevent botted accounts from ruining the experience.
+website: captcha.collidacube.repl.co
+
+commands:
+  mccaptcha:
+    aliases: [captcha]
